@@ -30,7 +30,7 @@ h1 {
     left:120px;
     top:0;
     line-height: 80px;
-    background-image:url(images/web-logo.png);
+    background-image:url(/images/web-logo.png);
     background-repeat: no-repeat;
     background-position: center;
     width: 210px;
