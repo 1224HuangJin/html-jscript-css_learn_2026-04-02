@@ -18,7 +18,7 @@ position 解释： https://youtu.be/6HHN0G2cwBM?t=851
 right:5vw = 向右间距 5%
 top: 0 = 弄到最上面
 line-heght:80px = 文字的行距 
-background-image:url(...) = 在h1中添加背景图片
+background-image:url(...) = 在h1中添加背景图片（图片来自：https://www.svgrepo.com/svg/521518/book-open）
 background-repeat: no-repeat; = 不要重复背景图片
 background-posotion: center; = 将背景图片移到中间
 width: 210px; = 宽度弄到210px（210像素）
@@ -30,10 +30,11 @@ h1 {
     left:120px;
     top:0;
     line-height: 80px;
-    background-image:url(/images/web-logo.png);
+    background-image:url(/images/book-open-svgrepo-com.svg);
     background-repeat: no-repeat;
     background-position: center;
     width: 80px;
+    height: 80px;
     text-indent: -9999px;
 }
 /* 
