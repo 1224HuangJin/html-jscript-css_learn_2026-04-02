@@ -1,6 +1,14 @@
-/* "头部"，背景颜色=黑色 */
+/* 以下内容皆学自：https://youtu.be/6HHN0G2cwBM */ 
+
+/* 
+"头部"，背景颜色=黑色 
+高度（height）占80px（80像素）
+宽度占满屏幕
+*/
 header {
     background-color: black;
+    height: 80px;
+    width: 100%;
 }
 /* h1 主标题文字颜色 = 白色 */
 h1 {
