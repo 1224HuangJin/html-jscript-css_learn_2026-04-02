@@ -4,7 +4,6 @@
 "头部"，背景颜色=黑色 
 高度（height）占80px（80像素）
 宽度（width）占满屏幕
-
 position 解释： https://youtu.be/6HHN0G2cwBM?t=851
 */
 header {
@@ -13,9 +12,18 @@ header {
     width: 100%;
     position: relative;
 }
-/* h1 主标题文字颜色 = 白色 */
+/* 
+h1 主标题文字颜色 = 白色
+position 解释： https://youtu.be/6HHN0G2cwBM?t=851
+right:5vw = 向右间距 5%
+top: 0 = 弄到最上面
+line-heght:80px = 文字的行距 */
 h1 {
     color: white;
+    position: absolute;
+    left:120px;
+    top:0;
+    line-height: 80px;
 }
 /* 
 text-decoration 在这边代表链接中的下划线
