@@ -21,7 +21,7 @@ position 解释： https://youtu.be/6HHN0G2cwBM?t=851
 right:5vw = 向右间距 5%
 top: 0 = 弄到最上面
 line-heght:80px = 文字的行距 
-background-image:url(...) = 在h1中添加背景图片（图片来自：https://www.svgrepo.com/）
+background-image:url(...) = 在h1中添加背景图片
 background-repeat: no-repeat; = 不要重复背景图片
 background-posotion: center; = 将背景图片移到中间
 width: 210px; = 宽度弄到210px（210像素）
@@ -32,7 +32,7 @@ h1 {
     position: absolute;
     left:120px;
     top:0;
-    line-height: 110px;
+    line-height: 80px;
     background-image:url(/images/web-logo.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -41,7 +41,7 @@ h1 {
     /* 或者你也可以手动指定大小，比如： */
     /* background-size: 40px 40px; */
     width: 60px;
-    heirght: 10px;
+    height: 10px;
     text-indent: -9999px;
 }
 /* 
@@ -87,4 +87,26 @@ header a:hover{
 */
 header a:hover{
     text-decoration: underline;
+}
+/* 在Section中的class需要以"."开始*/
+.First-about{
+background-color: wheat;
+background-image: url(/images/about-background.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 95vh;
+display: flex;
+}
+
+.HTML{
+
+}
+
+.CSS{
+
+}
+
+.contact{
+
 }
