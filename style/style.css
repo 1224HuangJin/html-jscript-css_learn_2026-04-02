@@ -1,3 +1,4 @@
+/* 开始/Start */
 /* 以下内容皆学自：https://youtu.be/6HHN0G2cwBM */ 
 *{
     padding: 0;
@@ -37,11 +38,11 @@ h1 {
     background-repeat: no-repeat;
     background-position: center;
     /* 核心修复代码（AI的帮助）：https://gemini.google.com/share/8f7d3ac049eb  */
-    background-size: contain;  /* 自动缩放图片，使其完整显示在 80px 的格子内 */
+    background-size: 80px 80px;  /* 自动缩放图片，使其完整显示在 80px 的格子内 */
     /* 或者你也可以手动指定大小，比如： */
     /* background-size: 40px 40px; */
-    width: 60px;
-    height: 10px;
+    width: 100px;
+    height: 100px;
     text-indent: -9999px;
 }
 /* 
@@ -89,14 +90,30 @@ header a:hover{
     text-decoration: underline;
 }
 /* 在Section中的class需要以"."开始*/
+
+/*  */
 .First-about{
-background-color: wheat;
-background-image: url(/images/about-background.jpg);
+background-color: wheat ;
+/* 在AI的帮助下，添加了背景虚化效果："linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))," */
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/about-background.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 height: 95vh;
 display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color:white;
+}
+/* 2026/04/02 先做到这里：https://youtu.be/6HHN0G2cwBM?t=1121 */
+.First-about h2{
+font-size:60px;
+color: blanchedalmond;
+}
+
+.First-about p{
+    color: #FEF7E6;
 }
 
 .HTML{
@@ -110,3 +127,4 @@ display: flex;
 .contact{
 
 }
+/* 结束/Finish */
