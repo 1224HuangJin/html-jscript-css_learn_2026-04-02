@@ -7,4 +7,4 @@ Learning Html, JavaScript, CSS
 与该工具：https://vscode.dev
 
 目前本网站计划为：
-    目标为制作一个画画网站，可以画画并保存
+    ~~目标为制作一个画画网站，可以画画并保存~~
