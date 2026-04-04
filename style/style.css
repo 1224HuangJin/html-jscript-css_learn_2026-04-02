@@ -209,21 +209,22 @@ align-items = 垂直对齐（左右对齐）
 }
 .CSS-img{
     width: 50%;
-    left: 50%;
-    object-fit: cover;       
+    /* 可以删除 left: 50%; */
+    object-fit: cover; 
     /* AI帮助：
     关键：保证图片在拉伸时不失真，自动裁剪填充 */
 }
 
 .CSS-info{
-    right: 50%;
-    width: 50%;
+width: 50%;
     background-color: antiquewhite;
     display: flex;
     flex-direction: column;
     align-items: flex-start; /* 文字左对齐 */
     justify-content: center;
-    text-align: right;        /* 确保段落文字也是右对齐 */
+    /* text-align: right; 如果你希望文字正常阅读方向，建议改为 left */
+    text-align: left;        
+    padding: 0 40px; /* 额外建议：给文字左右加一点内边距，不会显得太贴边 */
 }
 .CSS-info h2{
     font-size: 40px;
