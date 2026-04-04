@@ -95,24 +95,24 @@ header a:hover{
 
 /*  */
 .First-about{
-background-color: wheat ;
-/* 在AI的帮助下，添加了背景虚化效果："linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))," */
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://io.wss.moe/image/h);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-height: 95vh;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-color:white;
-margin: 0;
+    background-color: wheat ;
+    /* 在AI的帮助下，添加了背景虚化效果："linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))," */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://io.wss.moe/image/h);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    margin: 0;
 }
 /* 2026/04/02 先做到这里：https://youtu.be/6HHN0G2cwBM?t=1121 */
 .First-about h2{
-font-size:60px;
-color: blanchedalmond;
+    font-size:60px;
+    color: blanchedalmond;
 }
 
 .First-about p{
@@ -177,14 +177,14 @@ align-items = 垂直对齐（左右对齐）
 }
 
 .HTML-info{
-right: 50%;
-width: 50%;
-background-color: antiquewhite;
-display: flex;
-flex-direction: column;
-align-items: flex-start; /* 文字左对齐 */
-justify-content: center;
-text-align: left;        /* 确保段落文字也是左对齐 */
+    right: 50%;
+    width: 50%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* 文字左对齐 */
+    justify-content: center;
+    text-align: left;        /* 确保段落文字也是左对齐 */
 }
 .HTML-info h2{
     font-size: 40px;
@@ -209,21 +209,21 @@ text-align: left;        /* 确保段落文字也是左对齐 */
 }
 .CSS-img{
     width: 50%;
-    left: 50%;
+    right: 50%;
     object-fit: cover;       
     /* AI帮助：
     关键：保证图片在拉伸时不失真，自动裁剪填充 */
 }
 
 .CSS-info{
-right: 50%;
-width: 50%;
-background-color: antiquewhite;
-display: flex;
-flex-direction: column;
-align-items: flex-start; /* 文字左对齐 */
-justify-content: center;
-text-align: left;        /* 确保段落文字也是左对齐 */
+    left: 50%;
+    width: 50%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* 文字左对齐 */
+    justify-content: center;
+    text-align: right;        /* 确保段落文字也是右对齐 */
 }
 .CSS-info h2{
     font-size: 40px;
@@ -237,10 +237,6 @@ text-align: left;        /* 确保段落文字也是左对齐 */
 
 /* CSS End */
 
-.contact{
-
-}
-
 footer{
     background-color: black;
     color: #B7b7b7;
@@ -251,4 +247,47 @@ footer{
     font-size: 14px;
 }
 
+/* 响应式设计语法 https://youtu.be/6HHN0G2cwBM?t=1523 */
+@media screen and (max-width: 768px) {
+    header ul {
+        display: none;
+    }
+    header h1{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .First-about h2{
+        font-size: 40px;
+    }
+
+.menu{
+    display: block;
+    background-color: transparent;
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top:15px;
+    left: 20px;
+    border: none;
+    cursor: pointer;
+    }
+
+.HTML {
+    width: 100%;
+    padding: 40px 0
+}
+.HTML h2{
+    font-size: 30px;
+}
+
+.CSS {
+    width: 100%;
+    padding: 40px 0
+}
+.CSS h2{
+    font-size: 30px;
+}
+
 /* 结束/Finish */
+
+}
