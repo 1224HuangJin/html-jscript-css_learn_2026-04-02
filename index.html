@@ -23,7 +23,7 @@
             <main>
             <section class="First-about">
             <h2>欢迎来到该网站，<br>该网站是1224HuangJin学习HTML,<br> JavaScript 与 CSS 的测试网站</h2>
-            <p>以此网站/视频学习：<br><br> <a href="https://developer.mozilla.org/zh-CN/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content">Mozilla</a> | <a href="https://youtu.be/6HHN0G2cwBM">PAPAYA电脑教室</a></p> 
+            <p>以此网站/视频学习：<br><br> <a href="https://developer.mozilla.org/zh-CN/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content">Mozilla（只学了一页）</a> | <a href="https://youtu.be/6HHN0G2cwBM">PAPAYA电脑教室（已全学完，看完）</a></p> 
             </section>
 
             <section class="quote">
@@ -34,43 +34,33 @@
                 <img src="https://io.wss.moe/image" alt="An random image from Siiway" class="HTML-img">
                 <div class="HTML-info">
             <h2>HTML</h2>
-            <p>图片：</p>
+            <p>所有"HTML标签"总结（也在：<a href="https://github.com/1224HuangJin/learn_html-javascript-css_2026-04-02/blob/main/README.md#html">GitHub中</a>）：</p>
             <details>
                 <summary>查看更多</summary>
-                <div class="HTML-info">
-                <p>此处图片，需要注意并不是 `scr="图片"` 而是 `src="图片"`</p>
-                <p>2026/04/02 14:08 将图片改为 `width="1280"` `height="720"` width的意思为宽度，height的意思为高度<br>在这里学到的：<a href="https://docs.pingcode.com/baike/3037186#:~:text=%E4%B8%80%E3%80%81%E9%80%9A%E8%BF%87HTML%E5%B1%9E%E6%80%A7%E8%B0%83%E6%95%B4%E5%9B%BE%E5%83%8F%E5%A4%A7%E5%B0%8F">通过HTML属性调整图像大小（PingCode.com）</a></p>
-        <!--     <img src="/images/exemple.jpg" width="640" height="320" alt="一个在山中拍摄的图片，远处有粉色/橘色的云，还有2座山。图片来源：https://pxhere.com/zh/photo/267338  (john mcsporran)"/> -->
-            <br><br>
-            <h3>于此处继续学习（2026/04/02 14:23）： </h3> <a href="https://www.developer.mozilla.org/zh-CN/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content#%E9%93%BE%E6%8E%A5">link</a>
-            <br>
-            </details>
-
-            <p>以下内容于此处学习： <a href="https://www.youtube.com/watch?v=6HHN0G2cwBM">Youtube 电脑教室</a></p>
-            <details>
-            <summary>查看更多</summary>
-            <h3>有数字列表（`ol` + `li`）</h3>
-            <ol>
-                <li>要点1</li>
-                <li>要点2</li>
-                <li>要点3</li>
-            </ol>
-            <br>
-            <h3>无数字列表（`ul` + `li`）</h3>
-            <ul>
-                <li>要点1</li>
-                <li>要点2</li>
-                <li>要点3</li>
-            </ul>
-            <br>
-            <h3>无数字列表（`ul` + `li`）与链接（`a href=`）</h3>
-            <ul>
-                <li><a href="#1">要点1</a></li>
-                <li><a href="#2">要点2</a></li>
-                <li><a href="#3">要点3</a></li>
-            </ul>
-            <h3>引用代码（blockquote）然后也可以加上 cite="link"来添加引用的链接？（与 br，虽然以前就知道了）：</h3>
-            <blockquote cite="https://github.com/1224HuangJin">《"君子藏器而身，<br>待时而动。"》</blockquote>
+                <ul>
+                    <li><code>&lt;!DOCTYPE html&gt;</code> = 声明文档类型为 HTML5</li>
+                    <li><code>&lt;html lang="zh"&gt;&lt;/html&gt;</code> = 设定网页语言为中文</li>
+                    <li><code>&lt;head&gt;&lt;/head&gt;</code> = 头部文件（不会在网站内显示，用于存放设定）</li>
+                    <li><code>&lt;meta name="viewport" content="width=device-width" /&gt;</code> = 让网页适配手机等移动设备的屏幕宽度</li>
+                    <li><code>&lt;title&gt;&lt;/title&gt;</code> = 网页标题（显示在浏览器标签页上）</li>
+                    <li><code>&lt;link rel="stylesheet" href="/style/style.css"&gt;</code> = 导入 CSS 样式文件</li>
+                    <li><code>&lt;body&gt;&lt;/body&gt;</code> = 网页中所有肉眼可见的主要内容</li>
+                    <li><code>&lt;nav&gt;&lt;/nav&gt;</code> = 网页中的导航栏</li>
+                    <li><code>&lt;main&gt;&lt;/main&gt;</code> = 网页的主体内容</li>
+                    <li><code>&lt;header&gt;&lt;/header&gt;</code> = 头部内容 / 页眉</li>
+                    <li><code>&lt;h1&gt;</code> 到 <code>&lt;h6&gt;</code> = 标题，子标题等</li>
+                    <li><code>&lt;p&gt;&lt;/p&gt;</code> = 普通段落文字</li>
+                    <li><code>&lt;a href="链接"&gt;文字&lt;/a&gt;</code> = 插入超链接</li>
+                    <li><code>&lt;img src="图片链接" width="宽度" height="高度" alt="替代文字"&gt;</code> = 插入图片</li>
+                    <li><code>&lt;br&gt;</code> = 换行</li>
+                    <li><code>&lt;blockquote cite="link"&gt;&lt;/blockquote&gt;</code> = 引用文字，cite 属性用于提供引用的来源链接</li>
+                    <li><code>&lt;strong&gt;&lt;/strong&gt;</code> = 加粗文字</li>
+                    <li><code>&lt;ol&gt;&lt;li&gt;...&lt;/li&gt;&lt;/ol&gt;</code> = 有序（数字）列表</li>
+                    <li><code>&lt;ul&gt;&lt;li&gt;...&lt;/li&gt;&lt;/ul&gt;</code> = 无序（圆点）列表</li>
+                    <li><code>&lt;section class=""&gt;&lt;/section&gt;</code> = 表示文档中的一个独立章节。—— <a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Reference/Elements/section">Mozilla.org</a></li>
+                    <li><code>&lt;footer&gt;&lt;/footer&gt;</code> = 页脚，通常用于显示版权信息等</li>
+                    <li><code>&lt;div&gt;&lt;/div&gt;</code> = 定义一个分隔区块，常用于通过 CSS 进行排版布局。—— <a href="https://www.runoob.com/tags/tag-div.html">菜鸟教程</a></li>
+                </ul>
             </details>
                 </div>
             </section>
@@ -78,23 +68,56 @@
             <section class="CSS" id="CSS">
                 <div class="CSS-info">
                     <h2>CSS：</h2>
-                    <p>在头部（head）添加 style 标签，即可添加CSS</p>
-                    <br>
-                    比如说，在style中添加 
-                    <ul>
-                        <li> h1 { <br>
-                            color: blue <br>
-                            font-size: 11px <br>
-                            }
-                        </li>
-                    </ul>
-                    <br>
-                    <p>这样可以把h1的文字颜色改为蓝色，并且也将大小改为11px（px=像素）。</p>
-                </div>
+                    <p>所有的CSS总结也在<a href="https://github.com/1224HuangJin/learn_html-javascript-css_2026-04-02/blob/main/README.md#css">GitHub中</a></p>
+                    <details>
+                        <summary>所有CSS内容总结（点击展开）</summary>
+                        <div style="text-align: left; padding: 10px;">
+                            <p><strong>1. 基本语法：</strong></p>
+                            <pre><code>/* 选定标签 */
+            a { color: blue; }
 
-                <img src="https://imgapi-origin.siiway.top/image/h" alt="An random image from Siiway" class="CSS-img">
+            /* 选定 Class (注意前面的点) */
+            .my-class { font-size: 16px; }</code></pre>
+
+                            <p><strong>2. 常用属性清单：</strong></p>
+                            <ul>
+                                <li><code>color: red;</code> - 更改文字颜色</li>
+                                <li><code>background-color: black;</code> - 背景颜色</li>
+                                <li><code>background-image: url(...);</code> - 添加背景图片</li>
+                                <li><code>background-size: cover;</code> - 背景自动拉伸填充</li>
+                                <li><code>width / height</code> - 宽度与高度</li>
+                                <li><code>line-height</code> - 行高（文字间距）</li>
+                                <li><code>text-align: center;</code> - 文字居中</li>
+                                <li><code>text-decoration: none;</code> - 去掉链接下划线</li>
+                                <li><code>border-radius: 5px;</code> - 边框圆角</li>
+                            </ul>
+
+                            <p><strong>3. 布局核心 (Flexbox)：</strong></p>
+                            <ul>
+                                <li><code>display: flex;</code> - 开启弹性布局</li>
+                                <li><code>justify-content: center;</code> - 水平居中</li>
+                                <li><code>align-items: center;</code> - 垂直居中</li>
+                                <li><code>flex-direction: column;</code> - 元素垂直排列（从上到下）</li>
+                            </ul>
+
+                            <p><strong>4. 定位 (Position)：</strong></p>
+                            <ul>
+                                <li><code>relative</code> - 相对定位（作为子元素绝对定位的参考）</li>
+                                <li><code>absolute</code> - 绝对定位（相对于父元素自由移动）</li>
+                                <li><code>fixed</code> - 固定在屏幕某个位置，不随滚动条移动</li>
+                            </ul>
+
+                            <p><strong>5. 响应式设计 (@media)：</strong></p>
+                            <pre><code>@media screen and (max-width: 768px) {
+                /* 当屏幕小于768px时执行 */
+                .menu { display: block; }
+            }</code></pre>
+                        </div>
+                    </details>
+                </div>
+                <img src="[https://imgapi-origin.siiway.top/image/h](https://imgapi-origin.siiway.top/image/h)" alt="CSS 学习图片" class="CSS-img">
             </section>
-    </main>
+        </main>
 
             <footer>
                 Copyright © 2026 <a href="https://github.com/1224HuangJin/learn_html-javascript-css_2026-04-02">1224HuangJin</a> 版权所有
