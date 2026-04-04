@@ -156,15 +156,13 @@ align-items = 垂直对齐（左右对齐）
     padding: 20px; /* 增加一点内边距好看一些 */
 }
 
-.HTML-info img{
+.HTML-img{
     width: 50%;
-}
-
-.HTML img{
-    width: 50%;
+    left: 50%;
 }
 
 .HTML-info{
+right: 50%;
 width: 50%;
 background-color: antiquewhite;
 display: flex;
