@@ -101,7 +101,7 @@ header a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 95vh;
+    height: 145vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -209,14 +209,14 @@ align-items = 垂直对齐（左右对齐）
 }
 .CSS-img{
     width: 50%;
-    right: 50%;
+    left: 50%;
     object-fit: cover;       
     /* AI帮助：
     关键：保证图片在拉伸时不失真，自动裁剪填充 */
 }
 
 .CSS-info{
-    left: 50%;
+    right: 50%;
     width: 50%;
     background-color: antiquewhite;
     display: flex;
