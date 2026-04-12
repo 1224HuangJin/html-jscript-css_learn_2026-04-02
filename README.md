@@ -9,16 +9,13 @@
 目前仅使用该工具：[VsCode.Dev](https://vscode.dev)
 
 目前计划为：
-\~\~目标为制作一个画画网站，可以画画并保存\~\~ 将我学到的东西弄成一个网站
-
------
+~~目标为制作一个画画网站，可以画画并保存~~ 将我学到的东西弄成一个网站
 
 # Index (目录):
 
-  - [2026/04/02 21:34](https://www.google.com/search?q=%2320260402-2134)
-  - [2026/04/04](https://www.google.com/search?q=%2320260404)
+[2026/04/02 21:34](#20260402-2134)
 
------
+[2026/04/04](#20260404)
 
 # **2026/04/02 21:34**
 
@@ -28,8 +25,6 @@
 
 虽然说已经学了挺多了，但有些东西还需要稍加稳固一下，或者也许在再看Mozilla.org的教程时会再次学到？
 明天要把视频看完，并且再弄个总结。
-
------
 
 ## **到现在学到的东西**：
 
@@ -67,8 +62,6 @@
   * `<img src="图片链接" width="宽度" height="高度" alt="Alt 文字">` = 插入图片（`alt` 是图片加载失败时显示的替代文字）。
   * `<ol>     <li>1</li>  <li>2</li>   </ol>` = 有数字顺序的列表（`ol` = ordered list + `li` = list item）。
   * `<ul>     <li>1</li>  <li>2</li>   </ul>` = 无数字的黑点列表（`ul` = unordered list + `li` = list item）。
-
------
 
 ### 🎨 CSS 样式与排版
 
@@ -154,13 +147,13 @@ a:hover {
 
 -----
 
-<details\>
-<summary\>🖼️ 视频参考图片来自：[https://youtu.be/6HHN0G2cwBM?t=871](https://youtu.be/6HHN0G2cwBM?t=871)\</summary\>
-<img width="1240" height="539" alt="image" src="[https://github.com/user-attachments/assets/b3517266-a211-400c-8fe2-6f5adcba2e31](https://github.com/user-attachments/assets/b3517266-a211-400c-8fe2-6f5adcba2e31)" /\>
-</details\>
+<details>
+<summary>🖼️ 视频参考图片来自：[https://youtu.be/6HHN0G2cwBM?t=871](https://youtu.be/6HHN0G2cwBM?t=871)</summary>
+<img width="1240" height="539" alt="image" src="https://github.com/user-attachments/assets/b3517266-a211-400c-8fe2-6f5adcba2e31">
+</details>
 
-<details\>
-<summary\>📂 `/style/style.css` 的所有代码（截至2026/04/02）\</summary\>
+<details>
+<summary>📂 `/style/style.css` 的所有代码（截至2026/04/02）</summary>
 
 ```css
 /* 开始/Start */
@@ -291,7 +284,7 @@ header a:hover{
 /* 结束/Finish */
 ```
 
-</details\>
+</details>
 
 -----
 
