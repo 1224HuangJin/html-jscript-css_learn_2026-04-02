@@ -154,13 +154,13 @@ a:hover {
 
 -----
 
-\<details\>
-\<summary\>🖼️ 视频参考图片来自：[https://youtu.be/6HHN0G2cwBM?t=871](https://youtu.be/6HHN0G2cwBM?t=871)\</summary\>
-\<img width="1240" height="539" alt="image" src="[https://github.com/user-attachments/assets/b3517266-a211-400c-8fe2-6f5adcba2e31](https://github.com/user-attachments/assets/b3517266-a211-400c-8fe2-6f5adcba2e31)" /\>
-\</details\>
+<details\>
+<summary\>🖼️ 视频参考图片来自：[https://youtu.be/6HHN0G2cwBM?t=871](https://youtu.be/6HHN0G2cwBM?t=871)\</summary\>
+<img width="1240" height="539" alt="image" src="[https://github.com/user-attachments/assets/b3517266-a211-400c-8fe2-6f5adcba2e31](https://github.com/user-attachments/assets/b3517266-a211-400c-8fe2-6f5adcba2e31)" /\>
+</details\>
 
-\<details\>
-\<summary\>📂 `/style/style.css` 的所有代码（截至2026/04/02）\</summary\>
+<details\>
+<summary\>📂 `/style/style.css` 的所有代码（截至2026/04/02）\</summary\>
 
 ```css
 /* 开始/Start */
@@ -291,7 +291,7 @@ header a:hover{
 /* 结束/Finish */
 ```
 
-\</details\>
+</details\>
 
 -----
 
